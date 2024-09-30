@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Catalog uuid="7d20aea4-8e05-4624-8efd-2e9675a42c99">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КассыККМ" category="Object">
+				<xr:TypeId>8f423817-4de1-463a-8472-ca4af06639fe</xr:TypeId>
+				<xr:ValueId>4cb93c10-4762-4196-922f-14504b945eec</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КассыККМ" category="Ref">
+				<xr:TypeId>0eef0eaa-d486-4af1-972c-e92f05c017f7</xr:TypeId>
+				<xr:ValueId>b04a28a2-81d6-453c-abe9-892c733c37fe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КассыККМ" category="Selection">
+				<xr:TypeId>01b96d51-0a6f-4e6e-9628-795c881ab012</xr:TypeId>
+				<xr:ValueId>e7e7902b-9729-4842-87b2-282832291f17</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КассыККМ" category="List">
+				<xr:TypeId>ef48d53f-239a-4f41-85fb-eb381fe8cfc7</xr:TypeId>
+				<xr:ValueId>9dcb3de8-7981-48ec-8d1a-4817cb55f98c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КассыККМ" category="Manager">
+				<xr:TypeId>56314a80-0312-47a6-bef6-75492c92b9eb</xr:TypeId>
+				<xr:ValueId>23a267a5-bf78-414d-87ad-5e7365806911</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КассыККМ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>621cbef7-183d-4756-9863-460a19e5ff97</ExtendedConfigurationObject>
+			<Owners>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Организации</xr:Item>
+			</Owners>
+			<DescriptionLength>100</DescriptionLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="accdbc7e-0bb2-46a8-aee8-49a01c704d15">
+				<Properties>
+					<Name>Расш66_ЦветЗаголовка</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>++Цвет заголовка</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>v8:ValueStorage</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5d19557f-b4c2-4a9c-b0c9-877c2cc627a9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Подразделение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>28c359ff-dff2-42c0-8ff1-00147da35487</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f480ba05-4700-44b4-b47e-6c874b1bf213">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВалютаДенежныхСредств</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b90390ac-cf91-4197-9624-8be21011b65b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6ce17b4c-df96-4d74-9eaa-3f587019d8dc">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипКассы</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>aba116a9-604d-4960-816d-e49283953889</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ТипыКассККМ</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="28753c7a-a14d-4320-ab8a-a3b6b9c6d29b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РазъезднаяТорговля</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5e755983-8561-4c13-b6ed-3a55784a51e3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d2a01cd9-fce6-49ec-8020-a8ce5c474ca5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Склад</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>eef7300e-6b10-45a4-98e4-218c257542e9</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="45fa3d5d-58d7-420a-99a4-81dd98e5acad">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РегистрационныйНомер</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>92eb141f-db82-4fda-9958-8b2210fe453f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>200</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0979f236-bf19-4208-80db-3d4e61ecdfc7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СерийныйНомер</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0e4958a8-343d-46fb-98d8-269e37594fe6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>200</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

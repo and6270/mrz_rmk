@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Catalog uuid="31b7d6da-3b4f-4561-b378-0fa659131b8d">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Склады" category="Object">
+				<xr:TypeId>61b4e76a-1041-4839-9e31-ee0ce3139c67</xr:TypeId>
+				<xr:ValueId>1db59223-4ff7-4d6a-a07b-8e7270036017</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Склады" category="Ref">
+				<xr:TypeId>edb7b124-42d6-4d3c-9155-637add9a7b82</xr:TypeId>
+				<xr:ValueId>dd81330c-133d-49f7-91d3-a084bc43f416</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Склады" category="Selection">
+				<xr:TypeId>52e2551f-0dc9-4d46-8cf2-514230483f2d</xr:TypeId>
+				<xr:ValueId>7e3cf797-8d0b-455e-a1db-339cafe98b04</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Склады" category="List">
+				<xr:TypeId>bd745462-62dc-4c33-87d8-6852ea316b1a</xr:TypeId>
+				<xr:ValueId>25149ccb-5793-43ac-ad2a-8d8e42c646b5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Склады" category="Manager">
+				<xr:TypeId>a98b7c70-9133-4632-ac82-a723432ff5cb</xr:TypeId>
+				<xr:ValueId>094b9c35-af18-40d9-b147-bac01283d17f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Склады</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>07b3c407-9a3a-4f94-b798-226c96d66840</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Catalog uuid="0dcbb3bb-a64e-4b72-b060-2407e208d6d4">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.НастройкиРМК" category="Object">
+				<xr:TypeId>e1e2f6a3-c31d-4609-83a1-ef4727bcd256</xr:TypeId>
+				<xr:ValueId>006ee733-f4eb-4cfc-a45e-dd9b7b731d13</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.НастройкиРМК" category="Ref">
+				<xr:TypeId>dbc79830-63aa-45f6-81b1-534bd1da445b</xr:TypeId>
+				<xr:ValueId>1ed73349-8bd2-4d19-9422-191fc5e57c79</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.НастройкиРМК" category="Selection">
+				<xr:TypeId>1a1b0167-42d8-4eff-9c6e-22770ce2520a</xr:TypeId>
+				<xr:ValueId>9fc81854-154b-462c-8a3d-a86daff96f61</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.НастройкиРМК" category="List">
+				<xr:TypeId>08bdee2a-123f-4abc-89e6-176e46e603da</xr:TypeId>
+				<xr:ValueId>4df4a653-462e-4468-a66d-2c64fcdb6308</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.НастройкиРМК" category="Manager">
+				<xr:TypeId>d3c76ae8-71f4-4097-9dcc-eb2131b33b91</xr:TypeId>
+				<xr:ValueId>47060aa7-a8fe-41fa-97d2-6377eb889d9f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НастройкиРМК</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>97c641e4-3f54-4778-9201-021ea4c93bd0</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="293a4af7-c118-45fd-8e53-fdc2288352c7">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.НастройкиРМК.КассыККМ" category="TabularSection">
+						<xr:TypeId>99c99093-34aa-41b0-b1a7-d527621c61d7</xr:TypeId>
+						<xr:ValueId>c6058379-69b0-4158-ad51-2d363eeb7594</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.НастройкиРМК.КассыККМ" category="TabularSectionRow">
+						<xr:TypeId>422d3ae1-9e51-4993-9165-1df8d277c6fc</xr:TypeId>
+						<xr:ValueId>b4efe1da-475c-47eb-8894-407bc4a61227</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КассыККМ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6360bd72-af6e-47d7-90a1-5cfe133b1e8b</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="2ef527fe-4108-4c3b-9f72-42e360c3a567">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>КассаККМ</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>1121bca4-9db0-42e4-b389-73b5a0e4892b</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.КассыККМ</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="d812e879-c4ba-4970-9ce2-3ade17a63362">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ИспользоватьБезПодключенияОборудования</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>02d20592-f4ff-4cff-bb8a-34545c5b8892</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>
